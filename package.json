@@ -1,0 +1,25 @@
+{
+  "name": "sonamu-select-keyboard-poc",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test --reporter=list --workers=1",
+    "typecheck": "tsc -p ."
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@sonamu-kit/react-components": "0.4.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2",
+    "vite": "8.3.1"
+  }
+}
